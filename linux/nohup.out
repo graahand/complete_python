@@ -1,0 +1,72 @@
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "/home/graahand/Keylogger/linux/keylogger.py", line 4, in <module>
+    import pyxhook
+ModuleNotFoundError: No module named 'pyxhook'
+Traceback (most recent call last):
+  File "/home/graahand/Keylogger/linux/keylogger.py", line 3, in <module>
+    import pyxhook
+ModuleNotFoundError: No module named 'pyxhook'
+Traceback (most recent call last):
+  File "/home/graahand/Keylogger/linux/keylogger.py", line 3, in <module>
+    import pyxhook
+ModuleNotFoundError: No module named 'pyxhook'
+Traceback (most recent call last):
+  File "/home/graahand/Keylogger/linux/keylogger.py", line 3, in <module>
+    from pynput.keyboard import Key, Listener
+ModuleNotFoundError: No module named 'pynput'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/pyxhook/pyxhook.py", line 96, in run
+    self.run()
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/pyxhook/pyxhook.py", line 96, in run
+    self.run()
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/pyxhook/pyxhook.py", line 96, in run
+    self.record_dpy.record_enable_context(self.ctx, self.processevents)
+    self.record_dpy.record_enable_context(self.ctx, self.processevents)
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/ext/record.py", line 238, in enable_context
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/ext/record.py", line 238, in enable_context
+    self.record_dpy.record_enable_context(self.ctx, self.processevents)
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/ext/record.py", line 238, in enable_context
+    EnableContext(
+    EnableContext(
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/ext/record.py", line 219, in __init__
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/ext/record.py", line 219, in __init__
+    EnableContext(
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/ext/record.py", line 219, in __init__
+    rq.ReplyRequest.__init__(self, *args, **keys)
+    rq.ReplyRequest.__init__(self, *args, **keys)
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/rq.py", line 1368, in __init__
+    rq.ReplyRequest.__init__(self, *args, **keys)
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/rq.py", line 1368, in __init__
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/rq.py", line 1368, in __init__
+    self.reply()
+    self.reply()
+    self.reply()
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/rq.py", line 1380, in reply
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/rq.py", line 1380, in reply
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/rq.py", line 1380, in reply
+    self._display.send_and_recv(request = self._serial)
+    self._display.send_and_recv(request = self._serial)
+    self._display.send_and_recv(request = self._serial)
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/display.py", line 609, in send_and_recv
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/display.py", line 609, in send_and_recv
+  File "/home/graahand/Keylogger/linux/log/lib/python3.10/site-packages/Xlib/protocol/display.py", line 609, in send_and_recv
+    raise self.socket_error
+    raise self.socket_error
+    raise self.socket_error
+Xlib.error.ConnectionClosedError: Display connection closed by server
+Xlib.error.ConnectionClosedError: Display connection closed by server
+Xlib.error.ConnectionClosedError: Display connection closed by server
